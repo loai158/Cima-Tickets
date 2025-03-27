@@ -1,0 +1,62 @@
+﻿@model Movie
+@{
+    ViewBag.Title = "Movie Detail";
+}
+<div id="wrapper" class="border-end-0" style="padding-top:50px">
+    <div class="card mb-3 shadow-lg" style="max-width: 1500px; padding-right:40px" >
+        <div class="row g-0 align-items-center">
+            <!-- Image Section (Left) -->
+            <div class="col-md-4">
+                <img src="~/images/movies/@Model.ImgUrl"  width="420"  class="img-fluid rounded-start" alt="Movie Image">
+            </div>
+            <!-- Details Section (Right) -->
+            <div class="col-md-4">
+                <div class="container-fluid">
+                    <h5 class="card-title d-flex justify-content-between align-items-center" style="color:darkviolet; font-size:32px ; ">
+                        @Model.Name
+                    </h5>
+                    <!-- Availability Badge -->
+                    @if (DateTime.Now >= Model.StartDate && DateTime.Now <= Model.EndDate)
+                    {
+                        <span class="badge bg-success">Available</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Unavailable</span>
+                    }
+                    <span class="badge bg-primary fs-6 p-2"><strong>Price</strong> @Model.Price$</span>
+                </div>
+                <div class="card-body">
+                    <!-- Title & Price -->
+                    <!-- Description -->
+                    <p class="text-muted">@Model.Description</p>
+                    <!-- Movie Information -->
+                    <p class="movie-field"><i class="fas fa-film"></i> <strong>Cinema:</strong> @string.Join(", ", Model.MovieCinemas.Select(c => c.Name))</p>
+                    <p class="movie-field"><i class="fas fa-list"></i> <strong>Category:</strong> @string.Join(", ", Model.MovieCategories.Select(ca => ca.Name))</p>
+                    <p class="movie-field">
+                        <i class="fas fa-list"></i> <strong>Actors:</strong>
+                        @foreach (var pic in Model.MovieActors as List<Actor>)
+                        {
+                            <div class="actor-card d-flex align-items-center m-2">
+                                <img src="~/images/cast/@pic.ProfilePicture" class="rounded-circle actor-img" width="50" height="50" alt="@pic.FirstName">
+                                <a href="/Customer/Actor/Details?Id=@pic.Id" class="ms-2" style="color:brown">@pic.FirstName</a>
+                            </div>
+                        }
+                        @if (!string.IsNullOrEmpty(Model.TrailerUrl))
+                        {
+                            <iframe width="600" height="200" src="@Model.TrailerUrl" frameborder="0" allowfullscreen class="ms-3"></iframe>
+                        }
+
+                    </p>
+                        <!-- Date Container -->
+                        <div class="date-container bg-light p-2 rounded mt-2">
+                            <p class="mb-1"style=" color:brown" ><i class="fas fa-calendar-alt" ></i> <strong style="color:brown">Start:</strong> @Model.StartDate.ToString("dd MMM yyyy")</p>
+                            <p class="mb-1" style=" color:brown" ><i class="fas fa-calendar-check"></i> <strong style="color:brown">End:</strong> @Model.EndDate.ToString("dd MMM yyyy")</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

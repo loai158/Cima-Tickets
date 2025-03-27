@@ -1,0 +1,39 @@
+﻿@model Actor
+@{
+    ViewBag.Title = "Movie Detail";
+}
+<div id="wrapper" class="border-end-0" style="padding-top:50px">
+    <div class="card-container">
+        <figure class="card-image">
+            <img src="~/images/cast/@Model.ProfilePicture" alt="@Model.FirstName">
+        </figure>
+
+        <div class="card-content">
+            <h3 class="card-title">
+                @Model.FirstName @Model.LastName
+
+            </h3>
+
+            <p class="card-description">
+                <strong>Bio:</strong> @Model.Bio
+            </p>
+            <p class="card-description">
+                <strong>News:</strong> @Model.News
+            </p>
+            <span class="card-date">Posted: April 15, 2024</span>
+            <button class="card-button">Learn More</button>
+        </div>
+    </div>
+ </div>
+
+
+@*<div class="card mb-3 shadow-lg" style="max-width: 1000px; padding-right:40px">
+    <div class="row g-0 align-items-center">
+        <div class="bio-card">
+            <div class="bio-content">
+                <h2>@Model.FirstName @Model.LastName</h2>
+                <p><strong>News:</strong> @Model.News</p>
+                <p><strong>Bio</strong>@Model.Bio</p>
+            </div>
+        </div>
+    </div>*@

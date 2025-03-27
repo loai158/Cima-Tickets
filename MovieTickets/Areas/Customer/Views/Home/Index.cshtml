@@ -1,0 +1,181 @@
+﻿@model MovieTickets.ViewModels.SearchVM
+<div id="wrapper">
+    <!-- Intro -->
+    <section id="intro" class="wrapper style1 fullscreen fade-up">
+        <div class="inner">
+            <h1>ETickets Reservation</h1>
+            <p>
+                Here You Can Make A Reservation For A Movie in A Cinema Next To You
+            </p>
+            <ul class="actions">
+                <li><a href="/Customer/Movie/Index" class="button scrolly">Show Recent Movies</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- One -->
+  
+    <!--two-->
+    <section id="two" class="wrapper style2 spotlights">
+        <section>
+            <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+            <div class="content">
+                <div class="inner">
+                    <h2>Search for a movie or an actor </h2>
+                    <form asp-action="search" asp-controller="movie" method="get">
+                        <div style="padding-bottom:20px">
+                            <input asp-for="value" id="value" type="text" name="value" />
+                            <span class="link-danger" asp-validation-for="value"></span>
+                        </div>
+                        <ul class="actions">
+                            <li><button type="submit" class="button">Search</button></li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+            <div class="content">
+                <div class="inner">
+                    <h2>Feugiat consequat</h2>
+                    <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+                    <ul class="actions">
+                        <li><a href="generic.html" class="button">Learn more</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--three-->
+    <section id="three" class="wrapper style2 spotlights">
+
+        <section>
+            <a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+            <div class="content">
+                <div class="inner">
+                    <h3>Showing Romance Movies </h3>
+                    <ul class="actions">
+                        <li><a href="/customer/movie/moviesByCategoryId?Id=5" class="button">Romance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <h3>Showing Action Movies </h3>
+                    <ul class="actions">
+                        <li><a href="/customer/movie/moviesByCategoryId?Id=4" class="button">Action</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content" style="padding-right:20px">
+                <div class="inner">
+                    <h3>Showing Fear Movies </h3>
+                    <ul class="actions">
+                        <li><a href="/customer/movie/moviesByCategoryId?Id=3" class="button">Fear</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content" style="padding-right:20px">
+                <div class="inner">
+                    <h3>Showing Drama Movies </h3>
+                    <ul class="actions">
+                        <li><a href="/customer/movie/moviesByCategoryId?Id=1" class="button">Drama</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content" style="padding-right:20px">
+                <div class="inner">
+                    <h3>Showing Comody Movies </h3>
+                    <ul class="actions">
+                        <li><a href="/customer/movie/moviesByCategoryId?Id=2" class="button">Comody</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--four-->
+    <section id="four" class="wrapper style2 spotlights">
+        <div class="cinema-grid">
+            <div class="cinema-box">
+                <h3>Magic Lantern Cinemas</h3>
+                <div class="cinema-info">
+                    <p style="font-size:19px" >📍 Location: Downtown, Cairo</p>
+                </div>
+                <p class="cinema-description">
+                    A cinema with a focus on classic movies and film festivals
+                </p>
+                <ul class="actions">
+                    <li><a href="/customer/movie/moviesByCinemaId?Id=1" class="button">Show Available Movies</a></li>
+                </ul>
+            </div>
+
+            <div class="cinema-box">
+                <h3>Starlight Cinemas</h3>
+                <div class="cinema-info">
+                    <p style="font-size:19px">📍 Location: Maddi, Cairo</p>
+                </div>
+                <p class="cinema-description">
+                    A family-friendly cinema with a play area for kids and special movie screenings
+                </p>
+                <ul class="actions">
+                    <li><a href="/customer/movie/moviesByCinemaId?Id=2" class="button">Show Available Movies</a></li>
+                </ul>
+            </div>
+
+            <div class="cinema-box">
+                <h3>Majestic Movie House</h3>
+                <div class="cinema-info">
+                    <p style="font-size:19px">📍 Location: Apt 1384, Alex</p>
+                </div>
+                <p class="cinema-description">
+                    A cinema with special events like midnight screenings and costume contests
+                </p>
+                <ul class="actions">
+                    <li><a href="/customer/movie/moviesByCinemaId?Id=4" class="button">Show Available Movies</a></li>
+                </ul>
+            </div>
+
+            <div class="cinema-box">
+                <h3>Sunset Cinemas</h3>
+                <div class="cinema-info">
+                    <p style="font-size:19px">📍 Location: Downtown, Cairo</p>
+                </div>
+                <p class="cinema-description">
+                    An outdoor cinema with a large screen and picnic-style seating
+                </p>
+                <ul class="actions">
+                    <li><a href="/customer/movie/moviesByCinemaId?Id=5" class="button">Show Available Movies</a></li>
+                </ul>
+            </div>
+
+            <div class="cinema-box">
+                <h3>Emerald City Cinemas</h3>
+                <div class="cinema-info">
+                    <p style="font-size:19px">📍 Location:Room 1639, Cairo</p>
+                </div>
+                <p class="cinema-description">
+                    A cinema with special events like midnight screenings and costume contests
+                </p>
+                <ul class="actions">
+                    <li><a href="/customer/movie/moviesByCinemaId?Id=9" class="button">Show Available Movies</a></li>
+                </ul>
+            </div>
+
+            <div class="cinema-box">
+                <h3>Golden Gate Cinema</h3>
+                <div class="cinema-info">
+                    <p style="font-size:19px">📍 Location: Suite 96, Cairo</p>
+                </div>
+                <p class="cinema-description">
+                    An outdoor cinema with a large screen and picnic-style seating
+                </p>
+                <ul class="actions">
+                    <li><a href="/customer/movie/moviesByCinemaId?Id=10" class="button">Show Available Movies</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+</div>

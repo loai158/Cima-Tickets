@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ETickets Admin Dashboard</title>
+    <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+          name="viewport" />
+    <link rel="icon"
+          href="~/images/favicon.ico"
+          type="image/x-icon" />
+
+    <!-- Fonts and icons -->
+    <script src="~/js/plugin/webfont/webfont.min.js"></script>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/plugins.css" />
+    <link rel="stylesheet" href="~/css/Admin.css" />
+
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link rel="stylesheet" href="~/css/demo.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <div class="sidebar" data-background-color="dark">
+            <div class="sidebar-logo">
+                <!-- Logo Header -->
+                <div class="logo-header" data-background-color="dark">
+                    <a href="index.html" class="big-logo">
+                        <img src="~/images/icon.png"
+                             alt="navbar brand"
+                             style="padding-top:10px"
+                             class="navbar-brand"
+                             height="80" />
+                    </a>
+                    <button class="topbar-toggler more">
+                        <i class="gg-more-vertical-alt"></i>
+                    </button>
+                </div>
+                <!-- End Logo Header -->
+            </div>
+            <div class="sidebar-wrapper scrollbar scrollbar-inner">
+                <div class="sidebar-content">
+                    <ul class="nav nav-secondary">
+                        <li class="nav-section">
+                            <span class="sidebar-mini-icon">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </span>
+                            <h4 class="text-section">Components</h4>
+                        </li>
+                        <li class="nav-item">
+                            <a data-bs-toggle="collapse" href="#base">
+                                <i class="fas fa-layer-group"></i>
+                                <p>Base</p>
+                                <span class="caret"></span>
+                            </a>
+                            <div class="collapse" id="base">
+                                <ul class="nav nav-collapse">
+
+                                    <li>
+                                        <a href="/Addmin/Movie/">
+                                            <span class="sub-item">Movies</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Addmin/Actor/">
+                                            <span class="sub-item">Actors</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Addmin/Cinema/">
+                                            <span class="sub-item">Cinemas</span>
+                                        </a>
+                                    </li> 
+                                    <li>
+                                        <a href="/Addmin/User/">
+                                            <span class="sub-item">Users</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a data-bs-toggle="collapse" href="#sidebarLayouts">
+                                <i class="fas fa-th-list"></i>
+                                <p>Sidebar Layouts</p>
+                                <span class="caret"></span>
+                            </a>
+                            <div class="collapse" id="sidebarLayouts">
+                                <ul class="nav nav-collapse">
+                                    <li>
+                                        <a href="sidebar-style-2.html">
+                                            <span class="sub-item">Sidebar Style 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="icon-menu.html">
+                                            <span class="sub-item">Icon Menu</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a data-bs-toggle="collapse" href="#forms">
+                                <i class="fas fa-pen-square"></i>
+                                <p>Forms</p>
+                                <span class="caret"></span>
+                            </a>
+                            <div class="collapse" id="forms">
+                                <ul class="nav nav-collapse">
+                                    <li>
+                                        <a href="forms/forms.html">
+                                            <span class="sub-item">Basic Form</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Sidebar -->
+
+
+            
+        <div class="main-panel">
+            <main>
+                <div class="content">
+                    @RenderBody()
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="container-fluid d-flex justify-content-between">
+                    <nav class="pull-left">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Help </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Licenses </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+        <!-- Custom template | don't include it in your project! -->
+        <!-- End Custom template -->
+        <!--   Core JS Files   -->
+        <script src="~/js/core/jquery-3.7.1.min.js"></script>
+        <script src="~/js/core/popper.min.js"></script>
+        <script src="~/js/core/bootstrap.min.js"></script>
+
+        <!-- jQuery Scrollbar -->
+        <script src="~/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+        <!-- Chart JS -->
+        <script src="~/js/plugin/chart.js/chart.min.js"></script>
+
+        <!-- jQuery Sparkline -->
+        <script src="~/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+        <!-- Chart Circle -->
+        <script src="~/js/plugin/chart-circle/circles.min.js"></script>
+
+        <!-- Datatables -->
+        <script src="~/js/plugin/datatables/datatables.min.js"></script>
+
+        <!-- Bootstrap Notify -->
+        <script src="~/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+        <!-- jQuery Vector Maps -->
+        <script src="~/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+        <script src="~/js/plugin/jsvectormap/world.js"></script>
+
+        <!-- Sweet Alert -->
+        <script src="~/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+        <!-- Kaiadmin JS -->
+        <script src="~/js/kaiadmin.min.js"></script>
+
+        <!-- Kaiadmin DEMO methods, don't include it in your project! -->
+        <script src="~/js/setting-demo.js"></script>
+        <script src="~/js/demo.js"></script>
+        <script>
+            $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
+                type: "line",
+                height: "70",
+                width: "100%",
+                lineWidth: "2",
+                lineColor: "#177dff",
+                fillColor: "rgba(23, 125, 255, 0.14)",
+            });
+
+            $("#lineChart2").sparkline([99, 125, 122, 105, 110, 124, 115], {
+                type: "line",
+                height: "70",
+                width: "100%",
+                lineWidth: "2",
+                lineColor: "#f3545d",
+                fillColor: "rgba(243, 84, 93, .14)",
+            });
+
+            $("#lineChart3").sparkline([105, 103, 123, 100, 95, 105, 115], {
+                type: "line",
+                height: "70",
+                width: "100%",
+                lineWidth: "2",
+                lineColor: "#ffa534",
+                fillColor: "rgba(255, 165, 52, .14)",
+            });</script>
+</body>
+</html>

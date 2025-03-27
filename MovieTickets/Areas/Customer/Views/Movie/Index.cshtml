@@ -1,0 +1,63 @@
+﻿@model List<Movie>
+@{
+    ViewBag.Title = "Movies";
+}
+@section Scripts {
+    @if (@TempData["notifaction"] != null)
+    {
+        <script>
+            toastr.success('@TempData["notifaction"]')
+        </script>
+    }
+}
+<div id="wrapper" class="border-end-0">
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-1 gx-lg-1 row-cols-1 row-cols-md-0 row-cols-xl-3 justify-content-center">
+                @foreach (var item in Model)
+                {
+                    <div class="col mb-5">
+                        <div class="card movie-card">
+                            <!-- Movie Image -->
+                            <div class="movie-img-container">
+                                @if (DateTime.Now >= @item.StartDate && DateTime.Now <= @item.EndDate)
+                                {
+                                    <div class="status-banner available-banner">Available</div>
+
+                                }
+                                else
+                                {
+                                    <div class="status-banner unavailable-banner">Unavailable</div>
+                                }
+                                <img class="card-img-top" src="~/images/movies/@item.ImgUrl" />
+                            </div>
+
+                            <!-- Movie Details (Inside a New Section Below the Image) -->
+                            <div class="card-body movie-details text-center">
+
+                                <h5 class="movie-title d-flex align-items-center justify-content-between">
+                                    @item.Name
+                                    <span class="movie-price-circle">@item.Price$</span>
+                                </h5>
+                                <p class="movie-field"><i class="fas fa-film"></i> <strong>Cinema:</strong> @string.Join(", ", item.MovieCinemas.Select(c => c.Name))</p>
+                                <p class="movie-field"><i class="fas fa-list"></i> <strong>Category:</strong> <a style="color:blue">  @string.Join(", ", item.MovieCategories.Select(ca => ca.Name))   </a></p>
+
+                                <div class="date-container">
+                                    <p class="movie-field"><i class="fas fa-calendar-alt"></i> <strong>Start:</strong> @item.StartDate.ToString("dd MMM yyyy")</p>
+                                    <p class="movie-field"><i class="fas fa-calendar-check"></i> <strong>End:</strong> @item.EndDate.ToString("dd MMM yyyy")</p>
+                                </div>
+                            </div>
+
+                            <!-- Buttons (Below the Details) -->
+                            <div class="card-footer text-center movie-footer">
+                                <a class="btn btn-outline-dark" href="/Customer/Movie/Details?Id=@item.Id">More Details</a>
+                                <a class="btn btn-primary" href="/Customer/Movie/Booking?movieId=@item.Id">Book Ticket</a>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </div>
+    </section>
+</div>

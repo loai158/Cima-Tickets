@@ -1,0 +1,625 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MovieTickets.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MovieTickets.giw2tzj8y3.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\css\\demo.css",
+      "PackagePath": "staticwebassets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\css\\demo.css.map",
+      "PackagePath": "staticwebassets\\css\\demo.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\css\\noscript.css",
+      "PackagePath": "staticwebassets\\css\\noscript.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\css\\plugins.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\css\\plugins.css.map",
+      "PackagePath": "staticwebassets\\css\\plugins.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\0221fcf6-0fa9-45d0-ba47-eb954b9bb020.PNG",
+      "PackagePath": "staticwebassets\\images\\0221fcf6-0fa9-45d0-ba47-eb954b9bb020.PNG"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\32c12576-1497-4c5c-8d2b-247f32d0889c.PNG",
+      "PackagePath": "staticwebassets\\images\\32c12576-1497-4c5c-8d2b-247f32d0889c.PNG"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\7344ba98-8798-4893-a4e4-14f66115a245.PNG",
+      "PackagePath": "staticwebassets\\images\\7344ba98-8798-4893-a4e4-14f66115a245.PNG"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\ca287c79-189a-435b-8a20-ef3ea5819086.PNG",
+      "PackagePath": "staticwebassets\\images\\ca287c79-189a-435b-8a20-ef3ea5819086.PNG"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\cast\\angelina_jolie.jpg",
+      "PackagePath": "staticwebassets\\images\\cast\\angelina_jolie.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\cast\\chris_evans.jpg",
+      "PackagePath": "staticwebassets\\images\\cast\\chris_evans.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\cast\\dwayne_johnson.jpg",
+      "PackagePath": "staticwebassets\\images\\cast\\dwayne_johnson.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\cast\\emma_stone.jpg",
+      "PackagePath": "staticwebassets\\images\\cast\\emma_stone.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\cast\\keanu_reeves.jpg",
+      "PackagePath": "staticwebassets\\images\\cast\\keanu_reeves.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\cast\\leonardo_dicaprio.jpg",
+      "PackagePath": "staticwebassets\\images\\cast\\leonardo_dicaprio.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\cast\\robert_downey.jpg",
+      "PackagePath": "staticwebassets\\images\\cast\\robert_downey.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\cast\\scarlett_johansson.jpg",
+      "PackagePath": "staticwebassets\\images\\cast\\scarlett_johansson.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\cast\\tom_holland.jpg",
+      "PackagePath": "staticwebassets\\images\\cast\\tom_holland.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\cast\\will_smith.jpg",
+      "PackagePath": "staticwebassets\\images\\cast\\will_smith.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\d7b7b11f-e130-4b6c-8dd0-1499ba84ac6f.PNG",
+      "PackagePath": "staticwebassets\\images\\d7b7b11f-e130-4b6c-8dd0-1499ba84ac6f.PNG"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\dbad0863-25fd-4e13-85f8-732158d17e55.PNG",
+      "PackagePath": "staticwebassets\\images\\dbad0863-25fd-4e13-85f8-732158d17e55.PNG"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\e27edbe4-087b-4906-b7d3-ba6f969b3c4c.PNG",
+      "PackagePath": "staticwebassets\\images\\e27edbe4-087b-4906-b7d3-ba6f969b3c4c.PNG"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\icon.png",
+      "PackagePath": "staticwebassets\\images\\icon.png"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\logos\\cinematic_plaza_logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logos\\cinematic_plaza_logo.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\logos\\cineplex10_logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logos\\cineplex10_logo.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\logos\\download.jpeg",
+      "PackagePath": "staticwebassets\\images\\logos\\download.jpeg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\logos\\galaxy_cinema_logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logos\\galaxy_cinema_logo.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\logos\\grand_theatre_logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logos\\grand_theatre_logo.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\logos\\imax_logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logos\\imax_logo.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\logos\\silver_screen_logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logos\\silver_screen_logo.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\logos\\starlight_logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logos\\starlight_logo.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\logos\\sunset_drivein_logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logos\\sunset_drivein_logo.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\movies\\dark_knight.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\dark_knight.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\movies\\endgame.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\endgame.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\movies\\godfather.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\godfather.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\movies\\inception.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\inception.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\movies\\interstellar.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\interstellar.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\movies\\joker.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\joker.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\movies\\matrix.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\matrix.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\movies\\shutter_island.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\shutter_island.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\movies\\spiderman_nwh.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\spiderman_nwh.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\images\\movies\\titanic.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\titanic.jpg"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\breakpoints.min.js",
+      "PackagePath": "staticwebassets\\js\\breakpoints.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\browser.min.js",
+      "PackagePath": "staticwebassets\\js\\browser.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\core\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\demo.js",
+      "PackagePath": "staticwebassets\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\jquery.scrollex.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrollex.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\jquery.scrolly.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrolly.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\kaiadmin.js",
+      "PackagePath": "staticwebassets\\js\\kaiadmin.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\kaiadmin.min.js",
+      "PackagePath": "staticwebassets\\js\\kaiadmin.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\chart-circle\\circles.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\chart-circle\\circles.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\chart.js\\chart.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\chart.js\\chart.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\datatables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\datatables\\datatables.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\datepicker\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\datepicker\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\jquery.validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\jquery.validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\jsvectormap\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\jsvectormap\\jsvectormap.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\jsvectormap\\world.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\jsvectormap\\world.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\list.js\\list.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\list.js\\list.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\moment\\moment.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\owl-carousel\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\js\\plugin\\owl-carousel\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\owl-carousel\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\js\\plugin\\owl-carousel\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\select2\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\select2\\select2.full.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\sortable\\sortable.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\sortable\\sortable.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\sticky-sidebar\\sticky-sidebar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\sticky-sidebar\\sticky-sidebar.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\summernote\\summernote-lite.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\summernote\\summernote-lite.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\plugin\\webfont\\webfont.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\webfont\\webfont.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\setting-demo.js",
+      "PackagePath": "staticwebassets\\js\\setting-demo.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\setting-demo2.js",
+      "PackagePath": "staticwebassets\\js\\setting-demo2.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\js\\util.js",
+      "PackagePath": "staticwebassets\\js\\util.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\.net\\projects\\MovieTickets\\MovieTickets\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MovieTickets.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MovieTickets.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MovieTickets.props",
+      "PackagePath": "build\\MovieTickets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MovieTickets.props",
+      "PackagePath": "buildMultiTargeting\\MovieTickets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MovieTickets.props",
+      "PackagePath": "buildTransitive\\MovieTickets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

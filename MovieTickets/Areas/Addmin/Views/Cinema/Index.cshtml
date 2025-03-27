@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Cinema>
+
+<div class="container-fluid  my-3" style="width:auto">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+            <h1>All Cinemas</h1>
+            <a class="btn btn-success" href="/Addmin/Cinema/Create">Create New</a>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="bg-dark text-white">
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">CinemaLogo</th>
+                            <th scope="col">Movies</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <th scope="row">@item.Id</th>
+                                <td>@item.Name</td>
+                                <td>@item.Description</td>
+                                <td>@item.Address</td>
+                                <td>
+                                    <img src="~/images/logos/@item.CinemaLogo" alt="@item.Name" width="50" height="50">
+                                </td>
+                                <td>@string.Join(", ", item.CinemaMovies.Select(c => c.Name))</td>
+                                <td>
+                                    <a class="btn btn-warning btn-sm" href="/Addmin/Cinema/Edit?cinemaId=@item.Id">Edit</a>
+                                    <button class="btn btn-danger btn-sm" onclick="confirmDelete(@item.Id)">Delete</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .table-responsive {
+        width: 100%;
+    }
+
+    .table {
+        width: 100% !important;
+    }
+</style>
+<script>
+    function confirmDelete(id) {
+        if (confirm("Are you sure you want to delete this cinema?")) {
+            window.location.href = `/Addmin/Cinema/Delete?cinemaId=${id}`;
+        }
+    }
+</script>

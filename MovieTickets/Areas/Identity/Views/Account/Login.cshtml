@@ -1,0 +1,50 @@
+﻿@model MovieTickets.ViewModels.LoginVM
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1 class="text-lg-center"  style="color: azure; padding-right:850px; padding-top:50px">Login</h1>
+<hr />
+<div id="wrapper" class="border-end-0">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form asp-action="Login">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group form-check mb-3">
+                        <input style="padding-right:1000px" class="form-check-input" asp-for="RememberMe" id="rememberMeCheck" />
+                        <label class="form-check-label" for="rememberMeCheck">
+                            @Html.DisplayNameFor(model => model.RememberMe)
+                        </label>
+                    </div>
+                    <div class="form-group-default">
+                        <ul>
+                            <li><a asp-controller="Account" asp-action="FaceBookLogin">تسجيل الدخول بواسطة فيسبوك</a></li>
+                        </ul>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Log In" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

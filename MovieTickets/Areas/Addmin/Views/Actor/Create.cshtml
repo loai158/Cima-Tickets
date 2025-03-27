@@ -1,0 +1,94 @@
+﻿@model MovieTickets.Models.Actor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 style="padding-left: 25px" >Create A New Actor </h1>
+
+<hr />
+<div class="content" style="padding-left:25px" >
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="News" class="control-label"></label>
+                <input asp-for="News" class="form-control" />
+                <span asp-validation-for="News" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Bio" class="control-label"></label>
+                <input asp-for="Bio" class="form-control" />
+                <span asp-validation-for="Bio" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="ProfilePicture" class="form-label">Actor Img</label>
+                <input type="file" class="form-control" id="ProfilePicture" name="file" accept="image/*" onchange="previewImage(event)">
+                <div class="mt-3">
+                    <img id="imgPreview" src="#" alt="Image Preview" style="max-width: 20%; height: auto; display: none;" />
+                </div>
+                <span class="text-danger" asp-validation-for="ProfilePicture"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Selected Movies:</label>
+                <div id="selectedMovies" class="mb-2 p-2 border rounded" style="min-height: 40px;">
+                    <span class="text-muted">No Movies selected</span>
+                </div>
+                <label class="form-label">Movies</label>
+                <select id="MovieSelect" name="CinemaMovies[]" class="form-select" multiple size="5" onchange="updateSelectedMovies()">
+                    @foreach (var item in ViewData["Movies"] as List<Movie>)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script>
+    function previewImage(event) {
+        const imgPreview = document.getElementById('imgPreview');
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                imgPreview.src = e.target.result;
+                imgPreview.style.display = 'block';
+            }
+            reader.readAsDataURL(file);
+        } else {
+            imgPreview.style.display = 'none';
+            imgPreview.src = '';
+        }
+    }
+    function updateSelectedMovies() {
+        const select = document.getElementById('MovieSelect');
+        const selectedDiv = document.getElementById('selectedMovies');
+        selectedDiv.innerHTML = '';
+        let selectedValues = [];
+        for (let option of select.options) {
+            if (option.selected) {
+                selectedValues.push(`<span class="badge bg-primary me-1">${option.text}</span>`);
+            }
+        }
+        selectedDiv.innerHTML = selectedValues.length > 0 ? selectedValues.join(' ') : '<span class="text-muted">No categories selected</span>';
+    }
+</script>

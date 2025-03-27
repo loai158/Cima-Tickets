@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+@using System.Security.Claims
+@inject Microsoft.AspNetCore.Identity.UserManager<ApplicationUser> UserManger
+@{
+    var user = await UserManger.GetUserAsync(User);
+}
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MovieTickets</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
+    <noscript><link rel="stylesheet" href="~/css/noscript.css" /></noscript>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha384-ZsJ2AqJpEezFct9sbdhZcWmMfySt42o+U78D8cMJOaVpFO5wZCbpobdd2K8a6gHt" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand text-white" style="padding-left:60px" href="/Customer/Home/Index">Your Fav E-Tickets Movie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+
+                        @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                        {
+                            <li class="nav-item"><a class="nav-link text-white" href="/Addmin">Manage The System</a></li>
+                        }
+
+
+                        <li class="nav-item d-flex align-items-center">
+                            <img src="~/images/@(string.IsNullOrEmpty(user?.ImageUrl) ? "default-profile.jpg" : user.ImageUrl)"
+                                 alt="Profile" class="rounded-circle me-2" width="40" height="40" />
+                            <a class="nav-link text-white" href="/Identity/Account/Profile/?name=@User.Identity.Name">Welcome @User.Identity.Name</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="/Identity/Account/Logout">Logout</a>
+                        </li>
+
+                        <li class="nav-item" style="padding-top:15px">
+                            <div class="d-flex">
+                                <a href="/Customer/Cart/Index" class="btn btn-outline-light position-relative">
+                                    <i class="bi-cart-fill me-1"></i>
+                                    Cart
+                                    <span id="cartCount" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                          style="display: none;">0</span>
+                                </a>
+                            </div>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item"><a class="nav-link text-white" href="/Identity/Account/Login">Login</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="/Identity/Account/Register">Register</a></li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Sidebar -->
+    <section id="sidebar">
+        <div class="inner">
+            <nav>
+                <ul>
+                    <li><a href="/#intro">Welcome</a></li>
+                    <li><a href="/#two">Search</a></li>
+                    <li><a href="/#three">Categories</a></li>
+                    <li><a href="/#four">Cinemas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- Wrapper -->
+
+    @RenderBody()
+
+    <footer id="footer" class="wrapper style1-alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; Untitled. All rights reserved.</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>
+        function updateCartCount() {
+            $.ajax({
+                url: "/Customer/Cart/GetCartCount",
+                type: "GET",
+                success: function (count) {
+                    if (count > 0) {
+                        $("#cartCount").text(count).show();
+                    } else {
+                        $("#cartCount").hide();
+                    }
+                },
+                error: function () {
+                    console.error("Failed to fetch cart count.");
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            updateCartCount(); // تحديث العدد عند تحميل الصفحة
+        });
+    </script>
+    <script>
+        $(document).on("click", ".addToCart", function () {
+            var movieId = $(this).data("movieid");
+
+            $.ajax({
+                url: "/Customer/Cart/Add",
+                type: "POST",
+                data: { movieId: movieId, count: 1 },
+                success: function (newCount) {
+                    $("#cartCount").text(newCount).show();
+                    toastr.success("تمت إضافة المنتج إلى السلة!");
+                },
+                error: function () {
+                    toastr.error("حدث خطأ أثناء الإضافة.");
+                }
+            });
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
