@@ -24,6 +24,8 @@ namespace MovieTickets
                 option.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
             });
 
+            //   builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
+
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
                 options =>
                 {
@@ -45,7 +47,14 @@ namespace MovieTickets
             builder.Services.AddScoped<IOderItemRepositry, OrderItemRepositry>();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+            builder.Services.AddAuthentication()
+                .AddGoogle(options =>
+                {
+                    IConfigurationSection googleAuthSection = builder.Configuration.GetSection("Auth:Google");
 
+                    options.ClientId = googleAuthSection["ClientId"];
+                    options.ClientSecret = googleAuthSection["ClientSecret"];
+                });
 
             //stripe Payment
             builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
@@ -64,7 +73,9 @@ namespace MovieTickets
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
+
 
             app.MapControllerRoute(
                 name: "default",

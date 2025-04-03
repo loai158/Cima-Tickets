@@ -10,6 +10,7 @@ wwwroot\css\plugins.css.map
 wwwroot\css\site.css
 wwwroot\images\0221fcf6-0fa9-45d0-ba47-eb954b9bb020.PNG
 wwwroot\images\32c12576-1497-4c5c-8d2b-247f32d0889c.PNG
+wwwroot\images\5f0e1e05-115b-4448-bf2b-9ba5b8627bd7.png
 wwwroot\images\7344ba98-8798-4893-a4e4-14f66115a245.PNG
 wwwroot\images\ca287c79-189a-435b-8a20-ef3ea5819086.PNG
 wwwroot\images\cast\angelina_jolie.jpg

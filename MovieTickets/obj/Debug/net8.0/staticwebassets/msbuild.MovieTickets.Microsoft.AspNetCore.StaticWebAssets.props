@@ -216,6 +216,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\32c12576-1497-4c5c-8d2b-247f32d0889c.PNG'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\5f0e1e05-115b-4448-bf2b-9ba5b8627bd7.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MovieTickets</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MovieTickets</BasePath>
+      <RelativePath>images/5f0e1e05-115b-4448-bf2b-9ba5b8627bd7.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0cciayg5ex</Fingerprint>
+      <Integrity>EJ8+ebFopnSFivlTUQBx1C/BfzQ/Kz1PzBolBsh+vs4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\5f0e1e05-115b-4448-bf2b-9ba5b8627bd7.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7344ba98-8798-4893-a4e4-14f66115a245.PNG'))">
       <SourceType>Package</SourceType>
       <SourceId>MovieTickets</SourceId>
